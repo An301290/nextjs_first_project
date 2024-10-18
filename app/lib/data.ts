@@ -76,6 +76,7 @@ export async function fetchCardData() {
       numberOfInvoices,
       totalPaidInvoices,
       totalPendingInvoices,
+
     };
   } catch (error) {
     console.error('Database Error:', error);
